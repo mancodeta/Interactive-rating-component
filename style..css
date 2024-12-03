@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Overpass;
+    background-color: var(--Very-Dark-Blue);
+    max-width:  375px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+/* Main */
+.main {
+    background-color: var(--Dark-Blue);
+    border-radius: 20px;
+    max-width: 350px;
+    
+}
+
+.logo img {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+    margin: 20px 0 10px 20px;
+}
+
+.title {
+    color: var(--White);
+    margin-left: 20px;
+}
+
+.content {
+    color: var(--Light-Grey);
+    font-size: 15px;
+    padding: 20px;
+}
+
+.buttom-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttom-part span {
+    color: var(--Light-Grey);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+}
+
+.numOne {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+}
+
+.numTwo {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+}
+
+.numThree {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+}
+
+.numFour {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+}
+
+.numFive {
+    padding: 15px;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;
+}
+
+
+button {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+    border: none;
+    margin: 20px 20px 20px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.numOne:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+.numTwo:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+
+.numThree:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+
+.numFour:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+
+.numFive:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+.numFive:hover  {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+}
+/* ACTIVE */
+.numOne:active {
+    background-color: var(--White);
+}
+.numTwo:active {
+    background-color: var(--White);
+}
+
+.numThree:active {
+    background-color: var(--White);
+}
+
+.numFour:active {
+    background-color: var(--White);
+}
+
+.numFive:active {
+    background-color: var(--White);
+}
+
+
+button:hover {
+    background-color: hsl(25, 97%, 63%);
+}
+
+button:active {
+    background-color: var(--White);
+}
